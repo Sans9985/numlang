@@ -34,7 +34,7 @@ opcode		what it does
 		which prints all 3 registers.
 		you cannot print only 2 registers in one instruction.
 		or:
-		prints a string from one of the 16 slots if 2nd char is a colon
+		prints a string from one of the 4 slots if 2nd char is a colon
 1x[n|:ab|_abcd]	stores n in 'x'
 		if 2nd char is a colon, treat [ab] as a hex byte
 		if 2nd char is an underscore, treat [abcd] as a hex word

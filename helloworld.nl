@@ -1,0 +1,1 @@
+s[0:Hello, World!]0:000d00a

@@ -12,7 +12,7 @@ this is basically a (barely readable) language, meant to be minimalistic, but st
   - basic command prompt skills
 
 if you encounter issues, feel free to open an issue.
-if you made something, issue #1 is there to share your creations.
+if you made something, issue #2 is there to share your creations.
 
 
 below you can find the guide for the language.

@@ -62,7 +62,6 @@ int getHexValue(char c) {
     }
 }
 
-// reference to gran turismo 4
 short craft(short start) {
     short num = 0;
     int multi = 256 * 16;

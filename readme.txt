@@ -12,7 +12,7 @@ this is basically a (barely readable) language, meant to be minimalistic, but st
   - basic command prompt skills
 
 if you encounter issues, feel free to open an issue.
-if you made something, issue #2 is there to share your creations.
+if you made something, issue #1 is there to share your creations.
 
 
 below you can find the guide for the language.
@@ -34,7 +34,7 @@ opcode		what it does
 		which prints all 3 registers.
 		you cannot print only 2 registers in one instruction.
 		or:
-		prints a string from one of the 4 slots if 2nd char is a colon
+		prints a string from one of the 16 slots if 2nd char is a colon
 1x[n|:ab|_abcd]	stores n in 'x'
 		if 2nd char is a colon, treat [ab] as a hex byte
 		if 2nd char is an underscore, treat [abcd] as a hex word
@@ -61,6 +61,6 @@ s[a:string]	stores a given string in one of the 4 slots available; marked with '
 x		no-op (it does nothing)
 
 alternatively, you can put '!' as the first character of the "script"
-to enable logging to the console. (conditional jumps [3cnnnn] will always be logged)
+to enable logging to the console.
 
 note: there is a 64Kbyte (-1) limit on the scripts.
